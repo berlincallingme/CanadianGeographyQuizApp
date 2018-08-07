@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+ style="@style/wrap_content_x2"
+    android:orientation="vertical">
+
+<TextView
+    style="@style/wrap_content_x2"
+    android:text="How many Canadian provinces do not have marine coastlines?"/>
+
+    <RadioGroup
+        style="@style/wrap_content_x2"
+        android:orientation="horizontal"
+        android:id="@+id/radio_group_one">
+
+        <RadioButton
+            style="@style/wrap_content_x2"
+            android:text="a) 1"
+            android:id="@+id/wrong_1"
+            />
+        <RadioButton
+            style="@style/wrap_content_x2"
+            android:text="b) 2"
+            android:id="@+id/right_1"
+            />
+        <RadioButton
+            style="@style/wrap_content_x2"
+            android:text="c) 3"
+            android:id="@+id/wrong_2"
+            />
+    </RadioGroup>
+
+    <TextView
+        style="@style/wrap_content_x2"
+        android:text="Skunks are not native to any part of:"/>
+
+    <RadioGroup
+        style="@style/wrap_content_x2"
+        android:orientation="vertical"
+        android:id="@+id/radio_group_two"
+        >
+
+        <RadioButton
+            style="@style/wrap_content_x2"
+            android:text="a) Newfoundland"
+            android:id="@+id/right_2"
+
+            />
+        <RadioButton
+            style="@style/wrap_content_x2"
+            android:text="b) British Columbia"
+            android:id="@+id/wrong_4"
+            />
+        <RadioButton
+            style="@style/wrap_content_x2"
+            android:text="c) Northwest Territories"
+            android:id="@+id/wrong_5"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        style="@style/wrap_content_x2"
+        android:text="Which Canadian province does not adopt Daylight Saving Time?"/>
+
+    <RadioGroup
+        style="@style/wrap_content_x2"
+        android:orientation="vertical"
+        android:id="@+id/radio_group_three">
+
+        <RadioButton
+            style="@style/wrap_content_x2"
+            android:text="a) Newfoundland and Labrador"
+            android:id="@+id/wrong_7"
+            />
+        <RadioButton
+            style="@style/wrap_content_x2"
+            android:text="b) New Brunswick"
+            android:id="@+id/wrong_8"
+            />
+        <RadioButton
+            style="@style/wrap_content_x2"
+            android:text="c) Saskatchewan"
+            android:id="@+id/right_3"
+
+            />
+    </RadioGroup>
+
+    <TextView
+        style="@style/wrap_content_x2"
+        android:text="What are the top two biggest provinces in Canada by Sq. km? "
+        />
+
+    <CheckBox
+        style="@style/wrap_content_x2"
+        android:text="a) Ontario"
+        android:id="@+id/wrong_10"/>
+    <CheckBox
+        style="@style/wrap_content_x2"
+        android:text="b) Quebec"
+        android:id="@+id/right_4"
+        />
+
+    <CheckBox
+        style="@style/wrap_content_x2"
+        android:text="c) Nunavut"
+        android:id="@+id/right_5"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT ANSWERS"
+        android:id="@+id/submit_button"
+        />
+</LinearLayout>
+
+</ScrollView>
