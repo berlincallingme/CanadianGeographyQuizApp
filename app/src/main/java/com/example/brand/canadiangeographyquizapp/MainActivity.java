@@ -70,15 +70,18 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-public void submitScore()  {
+public void submitScore(View view)  {
+        calculateScore();
         submit_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "Your Final Score is" + quizScore,
                         Toast.LENGTH_LONG).show();
+                quizScore = 0;
             }
         });
 }
+
     }
     
 

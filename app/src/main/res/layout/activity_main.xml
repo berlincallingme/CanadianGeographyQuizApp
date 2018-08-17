@@ -131,6 +131,7 @@
         android:layout_height="wrap_content"
         android:text="SUBMIT ANSWERS"
         android:id="@+id/submit_button"
+        android:onClick="submitScore"
         />
 </LinearLayout>
 
