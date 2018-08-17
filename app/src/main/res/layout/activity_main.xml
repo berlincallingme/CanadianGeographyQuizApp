@@ -115,7 +115,7 @@
 
     <TextView
         style="@style/wrap_content_x2"
-        android:text="How many cities in Canada have a population over 1 million people?"/>
+        android:text="How many cities in Canada have a population over 1 million?"/>
 
     <RelativeLayout style="@style/wrap_content_x2">
 
@@ -124,7 +124,7 @@
             style="@style/wrap_content_x2"
             android:ems="10"
             android:inputType="textCapWords" />
-        
+
     </RelativeLayout>
     <Button
         android:layout_width="wrap_content"
