@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Canadian Geography Quiz App</string>
+    <string name="edit_text_answer_1">6</string>
+    <string name="edit_text_answer_2">Six</string>
 </resources>
