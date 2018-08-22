@@ -11,7 +11,7 @@
 
 <TextView
     style="@style/wrap_content_x2"
-    android:text="How many Canadian provinces do not have marine coastlines?"/>
+    android:text="1) How many Canadian provinces do not have marine coastlines?"/>
 
     <RadioGroup
         style="@style/wrap_content_x2"
@@ -37,7 +37,7 @@
 
     <TextView
         style="@style/wrap_content_x2"
-        android:text="Skunks are not native to any part of:"/>
+        android:text="2) Skunks are not native to any part of:"/>
 
     <RadioGroup
         style="@style/wrap_content_x2"
@@ -66,7 +66,7 @@
 
     <TextView
         style="@style/wrap_content_x2"
-        android:text="Which Canadian province does not adopt Daylight Saving Time?"/>
+        android:text="3) Which Canadian province does not adopt Daylight Saving Time?"/>
 
     <RadioGroup
         style="@style/wrap_content_x2"
@@ -93,7 +93,7 @@
 
     <TextView
         style="@style/wrap_content_x2"
-        android:text="What are the top two biggest provinces in Canada by Sq. km? "
+        android:text="4) What are the top two biggest provinces in Canada by Sq. km? "
         />
 
     <CheckBox
@@ -115,7 +115,7 @@
 
     <TextView
         style="@style/wrap_content_x2"
-        android:text="How many cities in Canada have a population over 1 million?"/>
+        android:text="5)  How many cities in Canada have a population over 1 million?"/>
 
     <RelativeLayout style="@style/wrap_content_x2">
 

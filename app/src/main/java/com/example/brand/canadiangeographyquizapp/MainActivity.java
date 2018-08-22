@@ -20,11 +20,8 @@ public class MainActivity extends AppCompatActivity {
     CheckBox quiz_question_4_b;
     CheckBox quiz_question_4_c;
     EditText edit_text_quiz_question;
-
     RadioButton correct_one;
-
     RadioButton correct_two;
-
     RadioButton correct_three;
     Button submit_button;
 
